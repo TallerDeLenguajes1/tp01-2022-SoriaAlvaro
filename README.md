@@ -19,3 +19,17 @@ Para inorar archivo, basta crear otro con la extensión ".gitignore". Dentro de 
 c. Al compilar se creó _tp1_1.exe_, a este archivo no hace falta incluirlo al repositorio. Ya lo incluí en el _.gitignore_. Tambien se creó una carpeta .vscode, la incluí en _.gitignore_.
 
 ---
+**Nota.** Si resolvió correctamente los puntos ii y iii notará que el resultado es el
+mismo. 
+* ¿a qué se debe?
+* ¿Qué obtiene en el punto 4?
+* ¿es igual a los anteriores?
+* ¿por qué? Responder en el archivo readme.md
+
+El resultado es el mismo ya que el puntero almacena la dirección de memoria de la variable.
+
+El punto 4 muestra la dirección de memoria del puntero, usando & y %p, se podrá ver la dirección de este mismo. como es la dirección de memoria del puntero, es diferente a los puntos anteriores.
+
+```
+printf("Dirección de memoria del puntero: %p\n\n", &p);
+```
